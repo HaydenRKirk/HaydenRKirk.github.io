@@ -16,8 +16,8 @@
 - links:
 - name: Contact
     link: /contact/    
-  #- name: Login
-  #  link: /
+  - name: Login
+    link: /
   #  new_window: true
   #- name: Sign Up
   #  link: /
