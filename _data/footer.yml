@@ -1,7 +1,10 @@
 - links:
   - name: Pricing
     link: /pricing/    
-    new_window: false
+   - links:
+- name: Blog2
+    link: /
+    
 - links:
 - name: Blog
     link: /blog/
