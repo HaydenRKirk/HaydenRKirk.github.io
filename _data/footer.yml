@@ -18,16 +18,16 @@
     link: /contact/    
   - name: Login
     link: /
-  #  new_window: true
-  #- name: Sign Up
-  #  link: /
-  #  new_window: true
-  #- name: Docs
-  #  link: /
-  # new_window: true
-  #- name: Status
-  #  link: /
-  # new_window: true
+  new_window: true
+  - name: Sign Up
+    link: /
+    new_window: true
+  - name: Docs
+    link: /
+   new_window: true
+  - name: Status
+    link: /
+   new_window: true
 - links:
   - name: Facebook
     link: https://facebook.com
