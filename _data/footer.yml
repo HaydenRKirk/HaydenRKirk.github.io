@@ -1,8 +1,6 @@
 - links:
   - name: Pricing
-    link: /pricing/
-  
-  
+    link: /pricing/  
 - links:
 - name: Blog
     link: /blog/
@@ -10,8 +8,7 @@
     link: /about/
 - links:
 - name: Contact
-    link: /contact/
-    
+    link: /contact/    
   #- name: Login
   #  link: /
   #  new_window: true
