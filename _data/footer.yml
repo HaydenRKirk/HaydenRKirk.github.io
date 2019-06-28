@@ -1,6 +1,8 @@
 - links:
   - name: Pricing
     link: /pricing/  
+   - name: Pricing2
+    link: /pricing2/  
 - links:
 - name: Blog
     link: /blog/
