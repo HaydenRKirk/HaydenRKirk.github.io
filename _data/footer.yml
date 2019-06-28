@@ -1,14 +1,6 @@
 - links:
   - name: Pricing
-    link: /pricing/    
-   - links:
-- name: 
-  link: /
-    - name: 
-  link: /
-  - name: 
-  link: /
-- links:
+    link: /pricing/  
 - name: Blog
     link: /blog/
   - name: About
