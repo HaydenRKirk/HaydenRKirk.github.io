@@ -2,9 +2,12 @@
   - name: Pricing
     link: /pricing/    
    - links:
-- name: Blog2
-    link: /
-    
+- name: 
+  link: /
+    - name: 
+  link: /
+  - name: 
+  link: /
 - links:
 - name: Blog
     link: /blog/
