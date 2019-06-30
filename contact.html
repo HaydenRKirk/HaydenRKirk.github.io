@@ -9,12 +9,12 @@ map:
   address: "1 George Street, Dunedin, New Zealand"
   zoom: 13
 ---
-<div class="map" id="map"></div>
+<!-- <div class="map" id="map"></div> -->
 
 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="support@example.com" />
+		<input type="hidden" name="_to" value="hayden.r.kirk@gmail.com" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<label for="name">Full Name</label>
@@ -23,6 +23,9 @@ map:
 		<label for="email">Email Address</label>
 		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
 
+		<label for="Website">Website</label>
+		<input type="text" name="Website" id="Website" placeholder="Enter your website or Facebook page..." />
+		
 		<label for="message">Message</label>
 		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
@@ -34,10 +37,11 @@ map:
 		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 		<h3 class="editable">Email</h3>
-		<p><a href="mailto:support@example.com">support@example.com</a></p>
+		<p><a href="mailto:hayden.r.kirk@gmail.com">ContactUs@PysTechnic.com.au</a></p>
 	</div>
 </div>
 
+<!--
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
 
@@ -176,3 +180,4 @@ map:
 	}
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+-->
